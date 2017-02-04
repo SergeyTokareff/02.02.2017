@@ -1,3 +1,6 @@
 {
-    "name" : "port"
+  "name": "port",
+  "dependencies": {
+    "jquery": "3.1.1"
+  }
 }
