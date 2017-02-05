@@ -2,5 +2,20 @@
   "name": "port",
   "dependencies": {
     "jquery": "3.1.1"
-  }
+  },
+  "homepage": "https://github.com/SergeyTokareff/02.02.2017",
+  "authors": [
+    "Sergey Tokareff <sergey.v.tokareff@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ]
 }

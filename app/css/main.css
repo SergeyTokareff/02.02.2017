@@ -1,9 +1,6 @@
-.logo-text{
-    position: absolute;
-    top: 0;
-    left: -9999px;
-}
-
+@import "header.css";
+@import "nav.css";
+    
 body, html{
     width: 100%;
     height: 100%;
@@ -13,15 +10,13 @@ body, html{
     min-height: 100%;
     overflow: hidden;
     position: relative;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .container{
     width: 960px;
     margin: 0 auto;
-}
-
-.container-wide{
-    width: 1200px;
 }
 
 .empty{
