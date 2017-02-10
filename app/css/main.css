@@ -1,5 +1,6 @@
 @import "header.css";
-@import "nav.css";
+@import "sidebar.css";
+@import "content.css";
     
 body, html{
     width: 100%;
@@ -17,6 +18,10 @@ body, html{
 .container{
     width: 960px;
     margin: 0 auto;
+}
+
+.sidebar{
+    width: 250px;
 }
 
 .empty{

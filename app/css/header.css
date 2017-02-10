@@ -16,7 +16,6 @@
 
 .header:after{
     content:'';
-    background: url(../img/line.png);
 }
 
 .logo{
@@ -38,8 +37,4 @@
 
 .socials-item:nth-child(n + 2){
     margin-left: 20px;
-}
-
-.socials-item:hover{
-    background: #3ba8c0;
 }

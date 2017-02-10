@@ -5,7 +5,7 @@
     <title>Document</title>
     <meta name="viewport" content="width=1230">
     <!-- CSS -->
-    <link rel="stylesheet" href="bower/normalize-css/">
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -19,22 +19,30 @@
                     </span>
                 </a>
                 <ul class="socials">
-                    <li class="socials-item">
+                    <li class="socials-item" 
+                       onmouseout="querySelector('img').src='img/vk.png'" 
+                       onmouseover="querySelector('img').src='img/vk-hover.png'">
                         <a href="#" class="socials-item-link">
                             <img src="img/vk.png">
                         </a>
                     </li>
-                    <li class="socials-item">
+                    <li class="socials-item"  
+                       onmouseout="querySelector('img').src='img/twitter.png'" 
+                       onmouseover="querySelector('img').src='img/twitter-hover.png'">
                         <a href="#" class="socials-item-link">
                             <img src="img/twitter.png">
                         </a>
                     </li>
-                    <li class="socials-item">
+                    <li class="socials-item"  
+                       onmouseout="querySelector('img').src='img/facebook.png'" 
+                       onmouseover="querySelector('img').src='img/facebook-hover.png'">
                         <a href="#" class="socials-item-link">
                             <img src="img/facebook.png">
                         </a>
                     </li>
-                    <li class="socials-item">
+                    <li class="socials-item"  
+                       onmouseout="querySelector('img').src='img/github.png'" 
+                       onmouseover="querySelector('img').src='img/github-hover.png'">
                         <a href="#" class="socials-item-link">
                             <img src="img/github.png">
                         </a>
@@ -46,18 +54,32 @@
             <div class="container">
                 <aside class="sidebar">
                    <nav class="nav">
-                       
+                       <ul class="categories">
+                           <li class="nav-item"><a href="#">Обо мне</a></li>
+                           <li class="nav-item"><a href="#">Мои работы</a></li>
+                           <li class="nav-item"><a href="#">Связаться со мной</a></li>
+                       </ul>
                    </nav> 
                    <div class="contacts">
-                       <div class="contacts-title">
-                           <ul class="contacts-list">
-                               
+                       <div class="contacts-title"><h3>Контакты</h3>
+                            <ul class="contacts-list">
+                               <li class="mail"><img src="img/mail.png"><a href="#">sergey.v.tokareff@gmail.com</a></li>
+                                <li class="phone"><img src="img/phone.png"><a href="#">+380952284996</a></li>
+                                <li class="skype"><img src="img/skype.png"><a href="#">liamparishowlett</a></li>
                            </ul>
                        </div>
                    </div>
                 </aside>
                 <div class="content-area">
-                    <section class="content-section"></section> 
+                    <section class="content-section">
+                        <div class="content-section-title">
+                            <p>Основная информация</p>
+                        </div>
+                        <div class="content-section-main">
+                            <div class="photo"></div>
+                            <div class="info"></div>
+                        </div>
+                    </section> 
                     <section class="content-section"></section>
                     <section class="content-section"></section>
                 </div>
